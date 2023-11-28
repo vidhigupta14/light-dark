@@ -1,0 +1,27 @@
+/* *{border: 1px solid red;} */
+body{
+    height: 100vh;
+}
+.modal-dialog{
+    width: 380px;
+    height: 100vh;
+}
+
+.modal-content{
+    /* min-height: 100%; */
+    min-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+button{
+    background-color: rgb(47, 104, 227);
+    border: 1px solid rgb(30, 30, 30);
+}
+
+.dark{
+    background-color: rgb(48, 44, 44);
+    
+}
